@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="50%" stop-color="#121212" />
+      <stop offset="100%" stop-color="#080808" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1f1f1f" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    .bg-rect { fill: url(#bg); }
+    .grid-rect { fill: url(#grid); opacity: 0.6; }
+    .title {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      font-size: 64px;
+      font-weight: 900;
+      fill: #ffffff;
+      letter-spacing: 12px;
+      animation: glow 3s ease-in-out infinite alternate;
+    }
+    .subtitle {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #888888;
+      letter-spacing: 5px;
+    }
+    .terminal-box {
+      fill: #0d0d0d;
+      stroke: #2e2e2e;
+      stroke-width: 1.5;
+      rx: 8;
+    }
+    .term-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      fill: #d4d4d4;
+    }
+    .cursor {
+      fill: #ffffff;
+      animation: blink 1s step-end infinite;
+    }
+    .scanline {
+      stroke: url(#lineGrad);
+      stroke-width: 2;
+      opacity: 0.7;
+      animation: scan 4s ease-in-out infinite alternate;
+    }
+    .dot-red { fill: #404040; }
+    .dot-yellow { fill: #737373; }
+    .dot-green { fill: #d4d4d4; }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes glow {
+      from { filter: drop-shadow(0 0 2px rgba(255,255,255,0.2)); }
+      to { filter: drop-shadow(0 0 14px rgba(255,255,255,0.6)); }
+    }
+    @keyframes scan {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(250px); }
+    }
+  </style>
+
+  <rect width="900" height="260" rx="12" class="bg-rect" stroke="#262626" stroke-width="2" />
+  <rect width="900" height="260" rx="12" class="grid-rect" />
+  <line x1="0" y1="5" x2="900" y2="5" class="scanline" />
+
+  <text x="450" y="95" text-anchor="middle" class="title">NEXEDOV</text>
+  <text x="450" y="130" text-anchor="middle" class="subtitle">17 Y.O. • PYTHON DEVELOPER • BOT ARCHITECT</text>
+
+  <rect x="150" y="160" width="600" height="70" class="terminal-box" />
+  <circle cx="170" cy="176" r="4" class="dot-red" />
+  <circle cx="184" cy="176" r="4" class="dot-yellow" />
+  <circle cx="198" cy="176" r="4" class="dot-green" />
+
+  <text x="170" y="208" class="term-text">
+    <tspan fill="#737373">root@nexedov:~$</tspan> python3 deploy_bots.py --async --zero-spam --cache
+  </text>
+  <rect x="705" y="195" width="9" height="16" class="cursor" />
+</svg>
