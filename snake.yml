@@ -1,0 +1,36 @@
+name: Generate Monochrome Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate monochrome snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake-light.svg?color_snake=#000000&color_dots=#e5e5e5,#a3a3a3,#737373,#404040,#171717
+            assets/snake-dark.svg?color_snake=#ffffff&color_dots=#161616,#2e2e2e,#525252,#8a8a8a,#ffffff
+
+      - name: Commit and push snake to assets folder
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/snake-light.svg assets/snake-dark.svg
+          git diff --staged --quiet || (git commit -m "Update contribution snake" && git push)
