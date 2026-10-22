@@ -15,6 +15,10 @@
     &#160;•&#160;
     <kbd>&#160;open for freelance &amp; internships&#160;</kbd>
   </p>
+  
+<p align="center">
+  <img src="./assets/live_status.svg" width="100%" alt="Live Telemetry">
+</p>
 
 </div>
 
