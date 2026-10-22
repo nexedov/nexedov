@@ -1,18 +1,15 @@
 <div align="center">
 
-  <!-- ТВОЙ СОБСТВЕННЫЙ АНИМИРОВАННЫЙ SVG-БАННЕР (РАБОТАЕТ ВСЕГДА НА 100%) -->
   <img src="./assets/banner.svg" alt="NEXEDOV Banner" width="100%" />
 
   <br><br>
 
-  <!-- ИСПРАВЛЕННАЯ ПЕЧАТАЮЩАЯСЯ СТРОКА (БЕЗ ЗАПРЕЩЕННЫХ СИМВОЛОВ) -->
   <a href="https://github.com/nexedov">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=800&color=FFFFFF&center=true&vCenter=true&width=720&height=35&lines=17+y.o.+Python+Developer+from+Russia;Building+Async+Telegram+Bots+with+Aiogram+3;REST+API+Integrations+%2B+In-Memory+Caching;Single-Message+UI+without+Chat+Spam" alt="Typing Animation" />
   </a>
 
   <br>
 
-  <!-- СТРОГАЯ ЧЕРНО-БЕЛАЯ НАВИГАЦИЯ (РАБОТАЕТ ДАЖЕ БЕЗ ВНЕШНИХ КАРТИНОК) -->
   <p>
     <a href="https://t.me/morbidglare"><kbd><b>&#160;&#160;✈️ TELEGRAM: @morbidglare&#160;&#160;</b></kbd></a>
     &#160;&#160;•&#160;&#160;
@@ -25,7 +22,6 @@
 
 <hr>
 
-<!-- ДВУХКОЛОНОЧНЫЙ ДАШБОРД -->
 <table width="100%">
   <tr>
     <td width="55%" valign="top">
@@ -83,7 +79,6 @@
 
 <br>
 
-<!-- БЛОК СПЕЦИАЛИЗАЦИИ -->
 <h2 align="center"><code>[ АРХИТЕКТУРА И ТЕХНОЛОГИЧЕСКИЙ ФОКУС ]</code></h2>
 
 <table width="100%">
@@ -105,12 +100,10 @@
 
 <br>
 
-<!-- ФЛАГМАНСКИЕ ПРОЕКТЫ (НЕЗАВИСИМЫЕ КАРТОЧКИ, КОТОРЫЕ НЕ ПАДАЮТ) -->
 <h2 align="center"><code>[ ФЛАГМАНСКИЕ ПРОЕКТЫ // SHOWCASE ]</code></h2>
 
 <table width="100%">
   <tr>
-    <!-- РЕПОЗИТОРИЙ 1 -->
     <td width="50%" valign="top">
       <h3>📚 <a href="https://github.com/nexedov/college-dz-bot">nexedov / college-dz-bot</a></h3>
       <p>
@@ -129,7 +122,6 @@
         <a href="https://github.com/nexedov/college-dz-bot"><kbd><b>&#160;&#160;📂 ОТКРЫТЬ КОД ПРОЕКТА ➔&#160;&#160;</b></kbd></a>
       </p>
     </td>
-    <!-- РЕПОЗИТОРИЙ 2 -->
     <td width="50%" valign="top">
       <h3>🌪 <a href="https://github.com/nexedov/weather-telegram-bot">nexedov / weather-telegram-bot</a></h3>
       <p>
@@ -153,7 +145,6 @@
 
 <br>
 
-<!-- МОНОХРОМНАЯ ЗМЕЙКА АКТИВНОСТИ -->
 <h2 align="center"><code>[ ТЕЛЕМЕТРИЯ КОММИТОВ // CONTRIBUTION SNAKE ]</code></h2>
 
 <div align="center">
