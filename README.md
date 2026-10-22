@@ -80,7 +80,9 @@
 <br>
 
 <h2 align="center"><code>[ АРХИТЕКТУРА И ТЕХНОЛОГИЧЕСКИЙ ФОКУС ]</code></h2>
-
+<p align="center">
+  <img src="./assets/architecture.svg" width="100%" alt="System Architecture">
+</p>
 <table width="100%">
   <tr>
     <td width="33%" valign="top">
