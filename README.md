@@ -1,13 +1,8 @@
 <div align="center">
-
   <img src="./assets/banner.svg" alt="NEXEDOV Banner" width="100%" />
-
-  <br><br>
-
   <a href="https://github.com/nexedov">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=680&height=30&lines=python+3.11+%2F%2F+asyncio+%2F%2F+aiogram+3+%2F%2F+aiohttp;single-message+bot+ui+%26+zero-disk+media+routing" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=680&height=24&lines=python+3.11+%2F%2F+asyncio+%2F%2F+aiogram+3+%2F%2F+aiohttp;single-message+bot+ui+%26+zero-disk+media+routing" alt="Typing Animation" />
   </a>
-
   <p>
     <a href="https://t.me/morbidglare"><kbd>&#160;tg: @morbidglare&#160;</kbd></a>
     &#160;•&#160;
@@ -15,6 +10,7 @@
     &#160;•&#160;
     <kbd>&#160;open for freelance &amp; internships&#160;</kbd>
   </p>
+</div>
   
 <p align="center">
   <img src="./assets/live_status.svg" width="100%" alt="Live Telemetry">
