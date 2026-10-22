@@ -12,11 +12,11 @@
 
   <circle cx="24" cy="28" r="4" class="dot"/>
   <text x="36" y="32" class="header">LIVE TELEMETRY // TELEGRAM GATEWAY</text>
-  <text x="816" y="32" text-anchor="end" class="meta">Uptime: 0h • 23:30 UTC</text>
+  <text x="816" y="32" text-anchor="end" class="meta">Uptime: 0h • 23:31 UTC</text>
 
   <line x1="1" y1="48" x2="839" y2="48" stroke="#21262d" stroke-width="1"/>
 
   <text x="20" y="73" class="msg">
-    <tspan class="accent">@morbidglare</tspan><tspan fill="#8b949e">:</tspan> я вася
+    <tspan class="accent">@morbidglare</tspan><tspan fill="#8b949e">:</tspan> All suck my dick
   </text>
 </svg>
