@@ -72,44 +72,6 @@
 
 <br>
 
-<h3 align="center"><code>[ PROJECTS // SHOWCASE ]</code></h3>
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/nexedov/college-dz-bot">nexedov / college-dz-bot</a></h3>
-      <p>
-        <code>aiogram 3</code> <code>json-db</code> <code>file-id-stream</code> <code>admin-panel</code>
-      </p>
-      <p>Бот с расписанием, домашкой и учебными материалами для студенческой группы.</p>
-      <ul>
-        <li>Фильтрация расписания по 1 и 2 подгруппе + индивидуальные чек-листы готовых ДЗ.</li>
-        <li>Прикрепление тяжелых медиа и файлов к предметам через <code>file_id</code> без загрузки на диск сервера.</li>
-        <li>Закрытая админка для старост с автоматической рассылкой пушей при обновлении заданий.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/nexedov/college-dz-bot"><kbd>&#160;source code ➔&#160;</kbd></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/nexedov/weather-telegram-bot">nexedov / weather-telegram-bot</a></h3>
-      <p>
-        <code>aiogram 3</code> <code>aiohttp</code> <code>openweather-api</code> <code>ttl-cache</code>
-      </p>
-      <p>Погодный бот с почасовым прогнозом и подбором одежды под температуру, ветер и осадки.</p>
-      <ul>
-        <li>Поиск городов на RU/EN и парсинг геолокации со смартфона в один тап.</li>
-        <li>Весь интерфейс работает внутри одного сообщения на инлайн-клавиатурах.</li>
-        <li>In-Memory кэширование ответов API на 10 минут и защита от флуда через <code>Middleware</code>.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/nexedov/weather-telegram-bot"><kbd>&#160;source code ➔&#160;</kbd></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br>
 
 <h3 align="center"><code>[ CONTRIBUTIONS ]</code></h3>
 
