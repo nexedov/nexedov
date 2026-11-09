@@ -31,7 +31,7 @@
     "Python 3.11+ (asyncio, aiohttp)",
     "Aiogram 3 / Telegram Bot API",
     "REST APIs & JSON Storage",
-    "HTML5, CSS3, JS",
+    "HTML5,",
     "Git & GitHub Actions"
   ],
   "patterns": [
