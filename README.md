@@ -6,7 +6,7 @@
   <p>
     <a href="https://t.me/morbidglare"><kbd>&#160;tg: @morbidglare&#160;</kbd></a>
     &#160;•&#160;
-    <kbd>&#160;17 y.o.&#160;</kbd>
+    <kbd>&#160;18 y.o.&#160;</kbd>
     &#160;•&#160;
     <kbd>&#160;open for freelance &amp; internships&#160;</kbd>
   </p>
@@ -16,8 +16,6 @@
   <img src="./assets/live_status.svg" width="100%" alt="Live Telemetry">
 </p>
 
-</div>
-
 <br>
 
 <table width="100%">
@@ -26,37 +24,34 @@
       <h3><code>/etc/nexedov/profile.json</code></h3>
       <pre lang="json"><code>{
   "dev": "nexedov",
-  "age": 17,
+  "age": 18,
   "stack": [
-    "Python 3.11+ (asyncio, aiohttp)",
-    "Aiogram 3 / Telegram Bot API",
-    "REST APIs & JSON Storage",
-    "HTML5,",
-    "Git & GitHub Actions"
+    "Python 3",
+    "Aiogram 3",
+    "JSON & REST API"
   ],
-  "patterns": [
-    "Single-message inline UI",
-    "Custom throttling middlewares",
-    "Zero-disk media via file_id",
-    "In-memory TTL caching"
+  "focus": [
+    "Async Telegram bots",
+    "API caching",
+    "Clean inline UX"
   ]
 }</code></pre>
     </td>
     <td width="48%" valign="top">
       <h3><code>/usr/bin/tech_arsenal</code></h3>
       <p>
-        <kbd>Python 3</kbd> <kbd>Asyncio</kbd> <kbd>Aiogram 3</kbd> <kbd>Aiohttp</kbd> <kbd>REST API</kbd>
+        <kbd>Python 3</kbd> <kbd>Asyncio</kbd> <kbd>Aiogram 3</kbd> <kbd>Aiohttp</kbd> 
       </p>
       <p>
-        <kbd>JSON</kbd> <kbd>HTML5 / JS</kbd> <kbd>Git</kbd> <kbd>GitHub Actions</kbd> <kbd>Linux</kbd>
+        <kbd>JSON</kbd> <kbd>Git</kbd> <kbd>REST API</kbd>
       </p>
       <hr>
       <h3><code>/var/log/shipped_features</code></h3>
       <ul>
-        <li><b>Single-Message UI:</b> навигация и смена экранов через редактирование одного сообщения без мусора в чате.</li>
-        <li><b>Zero-Disk Media:</b> раздача фото, видео и документов напрямую из облака Telegram по <code>file_id</code>.</li>
-        <li><b>API &amp; Кэш:</b> асинхронные запросы к внешним сервисам + хранение ответов в RAM (TTL 10 мин).</li>
-        <li><b>Контроль нагрузки:</b> кастомные <code>Middleware</code> от спама кликами и разделение ролей (юзер / админ).</li>
+        <li><b>Single-Message UI:</b> building bots that navigate through a single inline message without spamming the chat history.</li>
+        <li><b>Zero-Disk Media:</b> serving photos and files directly via Telegram <code>file_id</code> to save server storage.</li>
+        <li><b>API Caching:</b> caching external API responses in RAM to prevent rate limits and ensure instant replies.</li>
+        <li><b>Load Control:</b> writing custom middlewares to protect bots from user flood and spam clicks.</li>
       </ul>
     </td>
   </tr>
@@ -72,7 +67,6 @@
 
 <br>
 
-
 <h3 align="center"><code>[ CONTRIBUTIONS ]</code></h3>
 
 <div align="center">
@@ -81,4 +75,4 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg" />
     <img alt="Contribution Snake" src="./assets/snake-dark.svg" width="100%" />
   </picture>
-</div>****
+</div>
